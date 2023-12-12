@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+ font-family: 'Roboto' , sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;  
+}
+
+/* Headings */
+
+h2 {
+  display: flex;
+  justify-content: start;
+ padding: 20px 0;
+ }
+
+
+h3 {
+  display: flex;
+  justify-content: space-evenly;  
+  }
+
+/* Header */
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;    
+}
+  
+#header h1 {
+  width: 25%;
+  font-weight: 500;
+  padding-top: 15px;
+}
+
+/* Nav */
+
+#nav { 
+  height: 200px;
+  background-image: url(/starter/images/02-hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nav a {  
+  cursor: pointer;
+  text-decoration: none;
+  margin: 12px 0px;
+ }
+
+/* Icons */
+
+.icons {
+  display: flex;
+  justify-content: end;  
+}
+
+.icons img{
+  margin: 15px;
+  cursor: pointer;
+}
+
+/* About Me */
+
+#about-me {
+  height: 400px;
+  border-bottom: 15px solid black;
+  border-top: 15px solid black;
+  text-wrap: wrap;      
+}
+
+
+.about-me h2 {
+  color: black;
+  display: flex;
+  justify-content: start;
+}
+
+/* work */
+
+.Main { 
+  background-image: url(../images/Project1.png);
+  background-size: cover;
+  height: 500px;
+  width: 100vw;
+  
+  margin-bottom: 50px;
+  }
+
+  .Sub {
+    display: flex;
+    height: 250px;
+    width: 100vw;
+    padding-bottom: 50px;
+  }
+
+  .Sub1 {
+  background-image: url(../images/Project2.png);
+  background-size: cover;
+  width: 50vw;
+  height: 250px;
+  
+  }
+
+  .Sub2 { 
+    background-image: url(../images/02-portfolio-3.jpg);
+    width: 50vw;
+    height: 250px;
+    
+  } 
+
+
+
+/* Contact Me */
+
+.contact-me {
+  height: 150px;  
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+}
+  
+
+
+
